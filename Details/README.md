@@ -559,15 +559,9 @@ This indicates the installation and configuration were successful.
 
 ### 10. Adding monitored hosts to Zabbix
 
-Once the Zabbix server and dashboard are fully operational, the next step is to add the homelab servers as monitored hosts. **This assumes the Zabbix Agent 2 is already installed and running on each server**, as documented in:
+Once the Zabbix server and dashboard are fully operational, the next step is to add the homelab servers as monitored hosts. **This assumes the Zabbix Agent 2 is already installed and running on each server**.
 
-- [homelab-core-rack/server-backup-nuc-celeron/](../server-backup-nuc-celeron/)
-- [homelab-core-rack/server-proxmox-nuc-i5/](../server-proxmox-nuc-i5/)
-
-Additionally, **this assumes that SNMP is already configured on the network devices**, as documented in:
-
-- [homelab-core-rack/router-mikrotik-hex-rb750gr3/](../router-mikrotik-hex-rb750gr3/)
-- [homelab-core-rack/switch-mikrotik-rb260gs/](../switch-mikrotik-rb260gs/)
+Additionally, **this assumes that SNMP is already configured on the network devices**.
 
 ---
 
@@ -743,4 +737,5 @@ This section shows Proxmox resource usage (CPU, memory and disks) and traffic gr
 The last part of the dashboard monitors the Zabbix server itself (DietPi on Raspberry Pi 3 B+), including CPU, memory and SD card usage. Separate graphs show traffic on the LAN interface (eth0) and the Tailscale interface (tailscale0), confirming that monitoring data and remote administration traffic are flowing correctly.
 
 ---
+
 
