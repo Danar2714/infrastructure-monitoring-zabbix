@@ -2,8 +2,6 @@
 
 This document describes the complete Zabbix monitoring setup for the homelab, including agent configuration on monitored devices, Zabbix server installation and configuration, host addition, and custom dashboard creation.
 
-**Image repository:** All screenshots referenced in this document are available at:  
-`https://github.com/Danar2714/homelab-core-rack/tree/main/docs/Zabbix`
 
 ---
 
@@ -737,5 +735,6 @@ This section shows Proxmox resource usage (CPU, memory and disks) and traffic gr
 The last part of the dashboard monitors the Zabbix server itself (DietPi on Raspberry Pi 3 B+), including CPU, memory and SD card usage. Separate graphs show traffic on the LAN interface (eth0) and the Tailscale interface (tailscale0), confirming that monitoring data and remote administration traffic are flowing correctly.
 
 ---
+
 
 
