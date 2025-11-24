@@ -26,12 +26,12 @@ The entire system runs on a dedicated DietPi Raspberry Pi 3 B+, acting as the mo
 | MikroTik RB260GS | SNMP device              | SwOS with SNMP enabled                          |
 | LAN Subnet       | Managed infrastructure   | 172.16.0.0/24                                   |
 
-Each host is monitored using the most appropriate method—SNMP or Zabbix Agent—providing metrics such as:
+Each host is monitored using the most appropriate method (SNMP or Zabbix Agent) providing metrics such as:
 
 - CPU, RAM, and disk usage  
 - Network throughput  
-- Temperature and system health  
-- Uptime, logs, storage, and performance indicators  
+- System health  
+- Problems, logs, and performance indicators  
 
 ## 3. Repository Layout
 
